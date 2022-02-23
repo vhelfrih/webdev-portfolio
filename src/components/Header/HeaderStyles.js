@@ -59,8 +59,15 @@ export const NavLink = styled.a`
     color: #006241;
     opacity: 1;
     cursor: pointer;
+  }
   @media ${(props) => props.theme.breakpoints.md} {
     margin-left: 1rem;
+    
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 1.6rem;
+    margin-left: 1.2rem;
+    
   }
 `;
 

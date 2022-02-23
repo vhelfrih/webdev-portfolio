@@ -12,6 +12,11 @@ export const StyledModalHeader = styled.div`
   letter-spacing: 6px;
   font-weight: 600;
   padding-top: 1.8rem;
+  
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 2.8rem;
+  
+  }
 `;
 
 export const StyledModal = styled.div`

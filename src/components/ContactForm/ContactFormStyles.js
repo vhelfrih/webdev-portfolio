@@ -11,13 +11,17 @@ export const FormWrapper = styled.section`
   
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0 16px 48px;
-    width: calc(100vw - 32px);
+    width: calc(100vw - 0.1rem);
   }
 `;
 
 export const Form = styled.form`
   border: none;
   padding: 20px;
+  
+  @media ${(props) => props.theme.breakpoints.sm} {
+    padding: 0.5rem;
+  }
 `;
 
 export const Input = styled.input`
@@ -57,5 +61,9 @@ export const Button = styled.button`
   transiti1on: 0.2s;
   &:hover {
     background: #801414;
+  }
+  @media ${(props) => props.theme.breakpoints.sm} {
+    margin: 3rem;
+    padding: 0.7rem 1.2rem;
   }
 `;
