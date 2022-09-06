@@ -50,5 +50,5 @@ export const TimeLineData = [
   { year: 2015, text: 'With a technical background (telecommunications) and a little experience with HTML, I took a course on Python', },
   { year: 2020, text: 'Turned to web development and took some comprehensive courses on HTML, CSS, Javascript and React', },
   { year: 2021, text: 'Improved my coding skills through building simple projects, and diving deeper into more advanced concepts', },
-  { year: 2022, text: 'Working to become better each day, and taking a deep dive into Typescript', },
+  { year: 2022, text: 'Getting better each day, and taking a deep dive into Typescript', },
 ];
