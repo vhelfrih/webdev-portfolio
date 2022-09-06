@@ -12,7 +12,7 @@ module.exports = module.exports = {
     USER_ID: 'user_0BvAfKOJsDKkO8f88Dmpf',
   },
   future: {
-    webpack5: true
+    webpack5: false
   },
   webpack: (config) => {
     // load worker files as a urls with `file-loader`
