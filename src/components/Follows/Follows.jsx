@@ -93,7 +93,7 @@ const Follows = () => (
         }}
       />
     </SectionTitle>
-    <SectionText>I like to study new technologies from Youtube videos by not only just building the example projects, but thriving to understand every single line of code and adding new features to them. This requires to look up documentations and search various online sources to find working solutions, e.g. StackOverflow, dev.to articles etc. One example is this portfolio page built in NextJS with styled-components, which is an upgraded version of a project by Adrian Hajdin of JavaScript Mastery.</SectionText>
+    <SectionText>I like to study new technologies from Youtube videos by not only just building the example projects, but thriving to understand every single line of code and adding new features to them. This requires to look up documentations and search various online sources to find working solutions, e.g. StackOverflow, css-tricks, dev.to articles etc. One example is this portfolio page built in NextJS with styled-components, which is an upgraded version of a project by Adrian Hajdin of JavaScript Mastery.</SectionText>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
