@@ -59,6 +59,16 @@ export const projects = [
     visit: "https://tailwindlandingpagev01.netlify.app/",
     id: 5,
   },
+  {
+    title: "A Full Stack Recipe App",
+    description:
+      "A responsive full stack recipe app built with React and Tailwind CSS, that uses Strapi headless CMS and deployed via Railway App. Still working on various features such as a weekly menu planner and searching options.",
+    image: "/images/recipes.webp",
+    tags: ["React", "Tailwind CSS", "Strapi CMS"],
+    source: "https://github.com/vhelfrih/recipesv01",
+    visit: "https://recipesv01-production.up.railway.app/",
+    id: 6,
+  },
 ];
 
 export const TimeLineData = [

@@ -30,8 +30,13 @@ export const BlogCard = styled.div`
   width: 400px;
   min-height: 650px;
   max-height: 700px;
+  transition: all .2s ease-in-out;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+  }
+  &:hover {
+      transform: scale(1.08);
+    
   }
 `;
 export const TitleContent = styled.div`
