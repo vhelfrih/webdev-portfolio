@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { SiCodewars } from "react-icons/si";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -64,6 +65,9 @@ const Header = () => {
       </SocialIcons>
       <SocialIcons href="https://www.instagram.com/vhelfrih/" target="_blank">
         <AiFillInstagram size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.codewars.com/users/vhhun" target="_blank">
+        <SiCodewars size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>
