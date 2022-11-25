@@ -1,5 +1,6 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { SiCodewars } from "react-icons/si";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import Modal from "../Modal/Modal";
@@ -13,7 +14,7 @@ import {
   Slogan,
   SocialContainer,
   SocialIconsContainer,
-  Button
+  Button,
 } from "./FooterStyles";
 
 const Footer = () => {
@@ -22,9 +23,13 @@ const Footer = () => {
   return (
     <div>
       <FooterWrapper>
-        {showModal && <Modal show={showModal} onClose={() => setShowModal(false)}/>}
+        {showModal && (
+          <Modal show={showModal} onClose={() => setShowModal(false)} />
+        )}
         <SocialIconsContainer>
-        <Button id="contact" onClick={() => setShowModal(true)}>Contact</Button>
+          <Button id="contact" onClick={() => setShowModal(true)}>
+            Contact
+          </Button>
           <CompanyContainer>
             <Slogan>
               Seeking to deliver premium quality sites and applications
@@ -45,6 +50,12 @@ const Footer = () => {
               target="_blank"
             >
               <AiFillInstagram size="3rem" />
+            </SocialIcons>
+            <SocialIcons
+              href="https://www.codewars.com/users/vhhun"
+              target="_blank"
+            >
+              <SiCodewars size="3rem" />
             </SocialIcons>
           </SocialContainer>
         </SocialIconsContainer>
